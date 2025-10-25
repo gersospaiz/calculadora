@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f4f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.container {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  width: 90%;
+  max-width: 600px;
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  width: 100%;
+}
+
+button {
+  background: #007BFF;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+#grafica {
+  margin-top: 25px;
+}
+
+.info {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/* Colores según tipo de función */
+.par {
+  color: blue;
+}
+
+.impar {
+  color: red;
+}
+
+.ninguna {
+  color: green;
+}
